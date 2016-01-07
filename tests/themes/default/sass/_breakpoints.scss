@@ -1,0 +1,12 @@
+$breakpoint-desktop: 900px;
+$breakpoint-large: 1800px;
+
+@mixin responsive($size) {
+  @if $size == mobile {
+    @media screen and (max-width: $breakpoint-desktop - 1) { @content; }
+  }
+  @else if $size == large {
+    @media screen and (min-width: $breakpoint-large) { @content; }
+  }
+  @else { @content; }
+}

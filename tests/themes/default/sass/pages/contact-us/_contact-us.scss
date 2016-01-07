@@ -1,0 +1,17 @@
+.contact-us-table {
+	font-size: 1.8rem;
+    line-height: 2.4rem;
+	table-layout: fixed;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	@media screen and (max-width: 420px) {
+	    font-size: 1.4rem;
+		line-height: 1.8rem;
+	}
+	td {
+		vertical-align: top;
+		padding: 12px;
+	}
+}
+

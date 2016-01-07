@@ -1,0 +1,48 @@
+.homeLogo {
+	width: 200px;
+	@include responsive(mobile) {
+		width: 100px;
+	}
+}
+
+.testimonial-text {
+	max-width: 744px;
+	margin-left: auto;
+	margin-right: auto;
+	font-style: italic;
+}
+
+.testimonial-source {
+	font-weight: 700;
+    text-align: right;
+    margin-top: 24px;
+    &:before {
+    	content: "~"
+    }
+}
+
+.services {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+.service-block {
+	width: 310px;
+	height: 464px;
+	max-width: 100%;
+	margin-bottom: 64px;
+	margin-left: auto;
+	margin-right: auto;
+	@media screen and (max-width: 420px) {
+		width: 207px;
+	    height: 309px;
+		margin-bottom: 24px;
+	}
+}
+
+.home__meteor-logo {
+	width: 600px;
+    max-width: 100%;
+}

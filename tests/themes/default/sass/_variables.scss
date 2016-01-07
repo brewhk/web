@@ -1,0 +1,5 @@
+%standard-transition {
+	@include transition-property(all);
+	@include transition-duration(300ms);
+	@include transition-timing-function(ease);
+}

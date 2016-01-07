@@ -1,0 +1,222 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+html {
+	font-family: $default-font-family;
+	color: $red;
+	font-size: 10px;
+}
+
+body {
+	background-color: $white;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+%normal-text {
+	font-size: 2rem;
+	line-height: 3.6rem;
+	letter-spacing: 3px;
+	margin-top: 0;
+	margin-bottom: 0;
+	@media screen and (max-width: 420px) {
+	    font-size: 1.6rem;
+		line-height: 3rem;
+		letter-spacing: 2px;
+	}
+}
+
+%noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+p {
+	@extend %normal-text;
+}
+
+a {
+	color: $red;
+	text-decoration: none;
+    border-bottom-width: 1px;
+    border-bottom-color: $red;
+    border-bottom-style: dotted;
+	&:hover {
+		border-bottom-style: dashed;
+	}
+}
+
+a, button {
+	@extend %standard-transition;
+	cursor: pointer;
+}
+
+em {
+	font-style: normal;
+	border-bottom-color: $red;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+::selection {
+	background-color: $turquoise;
+	color: $white;
+}
+
+::-moz-selection {
+	background-color: $turquoise;
+	color: $white;
+}
+
+.companyName {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.companyLogo {
+	&.footerLogo,
+	&.headerLogo {
+		height: 32px;
+	}
+}
+
+.content-block {
+	padding-top: 98px;
+	padding-bottom: 98px;
+	@media screen and (max-width: 420px) {
+	    padding-top: 36px;
+	    padding-bottom: 36px;
+	}
+	@media screen and (max-width: 768px) {
+	    padding-top: 50px;
+	    padding-bottom: 50px;
+	}
+}
+
+.introduction-text,
+.content-text,
+.project-subheading {
+	max-width: 744px;
+	margin-top: 48px;
+	margin-bottom: 48px;
+	margin-left: auto;
+	margin-right: auto;
+	@media screen and (max-width: 420px) {
+		margin-top: 24px;
+		margin-bottom: 24px;
+	}
+}
+
+.introduction-text,
+.content-image {
+	text-align: center;
+}
+
+.content-image {
+	max-width: 100%;
+}
+
+.content-text {
+	text-align: left;
+}
+
+.page-title {
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 4px;
+}
+
+.read-time {
+	text-transform: uppercase;
+	font-size: 2rem;
+	&:before {
+	    content: "";
+	    display: inline-block;
+	    width: 16px;
+	    height: 16px;
+	    background-image: url("/images/icons/clock-icon.png");
+	    background-size: cover;
+	    margin-right: 12px;
+	}
+	@media screen and (max-width: 380px) {
+		font-size: 1.8rem;
+		&:before {
+		    width: 14px;
+		    height: 14px;
+		}
+    }
+}
+
+.app-screens-block {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	@media screen and (max-width: 479px) {
+		display: block;
+    }
+}
+
+.app-screen {
+	width: 320px;
+	max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    @media screen and (min-width: 480px) {
+	    margin-left: 16px;
+	    margin-right: 16px;
+    }
+}
+
+.iphone-6-app-screen {
+	@media screen and (min-width: 480px) {
+		height: 577px;
+    }
+}
+
+.project-subheading {
+	@extend %normal-text;
+	text-align: left;
+}
+
+.page-screenshot {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.screenshot-slide {
+	width: 100%;
+}
+
+.screen-slide {
+	width: 310px;
+	max-width: 100%;
+}
+
+.content-meteor-logo,
+.content-digitalocean-logo {
+	width: 600px;
+}
+
+.content-asiapay-logo {
+	width: 268px;
+}
+
+.logo-link {
+	border-bottom: none !important;
+}

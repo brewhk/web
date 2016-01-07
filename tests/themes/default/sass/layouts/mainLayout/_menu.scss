@@ -1,0 +1,56 @@
+.menu__nav-list-item,
+.menu__nav-link {
+	@extend %standard-transition;
+}
+
+.menu__nav,
+.menu__nav-list,
+.menu__nav-list-item,
+.menu__nav-link {
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.menu__nav-list {
+    padding: 0;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: bottom;
+}
+
+.menu__nav-list-item {
+	font-size: 1.4rem;
+	margin-left: 48px;
+	@include responsive(large) {
+		font-size: 2rem;
+		margin-left: 60px;
+	}
+	&.action-button {
+		border: 1px solid $red;
+		position: absolute;
+		top: $container-padding-standard;
+		right: $container-padding-standard;
+		.menu__nav-link {
+			padding: 24px;
+			border-bottom-color: transparent;
+		}
+		&:hover {
+			background-color: $red;
+			.menu__nav-link {
+				color: $white;
+			}
+		}
+	}
+}
+
+.menu__nav-link {
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	line-height: 32px;
+	border-bottom-style: dashed;
+	border-bottom-color: transparent;
+	&:hover {
+		border-bottom-color: $red;
+	}
+}

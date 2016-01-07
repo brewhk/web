@@ -1,0 +1,54 @@
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.3
+*/
+
+.owl-theme .owl-controls{
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+}
+
+.owl-prev:before,
+.owl-next:after {
+    display: inline-block;
+    position: absolute;
+    top: calc(50% - 24px);
+    font-size: 30px;
+    height: 30px;
+    width: 50px;
+    line-height: 30px;
+}
+
+.owl-prev:before {
+    content: "\2190";
+    left: -50px;
+}
+
+.owl-next:after {
+    content: "\2192";
+    right: -50px;
+}
+
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url(/images/icons/owl-carouel/AjaxLoader.gif) no-repeat center center
+}

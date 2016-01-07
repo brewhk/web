@@ -1,0 +1,21 @@
+<template name="mainLayout">
+	<div class="main-layout">
+		{{> responsiveMenu}}
+		<div class="main-layout__container">
+			<div class="main-layout__responsive-menu-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<header class="main-layout__header">
+				{{> menu}}
+			</header>
+			<div class="main-layout__content">
+				{{> yield}}
+			</div>
+			<footer class="mainLayout__footer">
+				{{> footer}}
+			</footer>
+		</div>
+	</div>
+</template>

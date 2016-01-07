@@ -1,0 +1,38 @@
+.solutions-block {
+	@extend %product-block;
+	@media screen and (max-width: 860px) {
+	    display: block;
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+}
+
+.solutions-block__graphics,
+.solutions-block__text {
+	@extend %product-sub-block;
+}
+
+.solutions-block__graphics-image {
+    max-width: 50%;
+    max-height: 300px;
+}
+
+.solutions-block__title {
+	font-size: 1.8rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.solutions-block__text {
+    text-align: left;
+    @media screen and (max-width: 860px) {
+	    margin-top: 60px;
+	}
+}
+
+.solutions-block__text-paragraph {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    letter-spacing: 2px;
+	margin-bottom: 2rem;
+}

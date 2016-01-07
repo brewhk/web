@@ -1,0 +1,22 @@
+<template name="responsiveMenu">
+	<div class="main-layout__responsive-menu">
+		<div class="responsiveMenu__container">
+			<nav class="responsive-menu__links">
+				<ul class="responsive-menu__links-list">
+					<li class="responsive-menu__links-list-item"><a href="{{pathFor route='home'}}" class="responsive-menu__link">Home</a></li>
+					<li class="responsive-menu__links-list-item"><a href="{{pathFor route='projects'}}" class="responsive-menu__link">Projects</a></li>
+					<li class="responsive-menu__links-list-item"><a href="{{pathFor route='solutions'}}" class="responsive-menu__link">Solutions</a></li>
+					<li class="responsive-menu__links-list-item"><a href="{{pathFor route='process'}}" class="responsive-menu__link">Process</a></li>
+					<li class="responsive-menu__links-list-item"><a href="{{pathFor route='contact-us'}}" class="responsive-menu__link">Contact Us</a></li>
+				</ul>
+			</nav>
+			<div class="responsive-menu__footer">
+				<img src="/images/logos/brew.png" class="companyLogo footerLogo" alt="Brew logo">
+				<p class="responsive-menu__text"><span class="companyName">Brew</span> is <i>the</i> digital agency in Hong Kong.</p>
+				<!-- <div class="socialIcons facebook"></div> -->
+				<!-- <div class="socialIcons twitter"></div> -->
+				<!-- <small class="responsive-menu__disclaimer">&copy; 2015 Brew Creative Limited.</small> -->
+			</div>
+		</div>
+	</div>
+</template>

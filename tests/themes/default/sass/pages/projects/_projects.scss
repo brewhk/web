@@ -1,0 +1,70 @@
+.projects-table {
+    max-width: 1065px;
+    width: 100%;
+    table-layout: fixed;
+    font-size: 1.4rem;
+}
+
+.projects-table__row {
+	&:hover {
+		background-color: $red10;
+	}
+}
+
+.projects-table__heading-cell {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: $red;
+	&:not([data-sortable="false"]) {
+        @include user-select(none);
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        -webkit-touch-callout: none;
+        cursor: pointer;
+    }
+    &:after {
+        visibility: hidden;
+        display: inline-block;
+        position: absolute;
+        font-weight: 400;
+    }
+
+    &[data-sorted="true"]:after {
+        visibility: visible;
+    }
+
+    &[data-sorted-direction="descending"]:after {
+        content: "\2191";
+    }
+    
+    &[data-sorted-direction="ascending"]:after {
+        content: "\2193";
+    }
+}
+
+.projects-table__heading-cell,
+.projects-table__cell {
+	text-align: left;
+	padding: 12px;
+}
+
+
+
+.project-image {
+	@include filter(grayscale(100%) sepia(100%) hue-rotate(315deg) saturate(300%) contrast(110%));
+}
+
+.projects-table__cell-client {
+    @media screen and (max-width: 540px) {
+        display: none;
+    }
+}
+
+.projects-table__cell-type {
+    @media screen and (max-width: 420px) {
+        display: none;
+    }
+}
+
+@import "skeduo";
