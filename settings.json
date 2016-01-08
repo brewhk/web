@@ -1,0 +1,12 @@
+{
+  "public": {
+    "analyticsSettings": {
+      "Google Analytics" : {"trackingId": "UA-72152235-1"},
+      "Amplitude"        : {"apikey": "88c08e5ae5d54a8df5c947b2c2d84d73"},
+      "Keen IO"          : {"projectId": "568f4d88672e6c535bc59aec", "writeKey": "b7fc6faca1b7fcc76cb7ca33b42567bb86d7e52f986c814717a910a458ed5a085b8035dc4cb404c52037940de09859a6564511cb1dadb6f4130dc27a9a71deea3304ad3d2d57bcef930cad93c8fdfc5f9f94b9d04e8685dec14a754fdcc1a26a5b4c84f0477525d84907aa184f722aec"},
+      "Mixpanel"         : {"token":  "f8a2a54ebb1970f7ae825d4e9468e46c", "people": true},
+      "Quantcast"        : {"pCode": "p-R4-GjKVuAdn96"},
+      "Segment.io"       : {"apiKey": "PBmof0WnR67uNoiM39f6E0kPvXszeS63"}
+    }
+  }
+}
