@@ -1,7 +1,6 @@
 {
   "public": {
     "analyticsSettings": {
-      "Amplitude"        : {"apikey": "88c08e5ae5d54a8df5c947b2c2d84d73"},
       "Segment.io"       : {"apiKey": "PBmof0WnR67uNoiM39f6E0kPvXszeS63"}
     }
   }
