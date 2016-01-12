@@ -217,6 +217,8 @@ Template.home.onRendered(function () {
 	} else {
 		window.initMap();
 	}
+	
+	analytics.page();
 });
 
 Template.home.events({

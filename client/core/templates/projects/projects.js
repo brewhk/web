@@ -228,4 +228,6 @@ Template.projects.onRendered(function () {
 	}
 
 	sortable.init();
+
+	analytics.page();
 });

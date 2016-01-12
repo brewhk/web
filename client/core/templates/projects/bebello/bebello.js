@@ -22,4 +22,6 @@ Template.bebello.onRendered(function () {
 		items : 3,
 		itemsCustom: [[0,1], [768, 2], [1200,3], []]
 	});
+
+	analytics.page();
 });

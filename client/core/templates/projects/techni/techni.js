@@ -9,4 +9,6 @@ Template.techni.onRendered(function () {
 		autoPlay: true,
 		stopOnHover: true
 	});
+
+	analytics.page();
 });
