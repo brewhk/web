@@ -14,7 +14,7 @@ Meteor.startup(function () {
 		auto: {
 			twitter: true,
 			og: true,
-			set: ['description', 'url']
+			set: ['description']
 		}
     });
 	// Loads segment analytics

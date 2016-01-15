@@ -14,8 +14,8 @@ SeoCollection.update(
                 href: "http://www.brew.com.hk/"
             }],
             og: {
+                'url': "http://www.brew.com.hk/",
                 'title': "Brew - Full-Service Creative Digital Agency in Hong Kong",
-                'description': "Brew is a full-service creative digital agency in Hong Kong, specializing in the Meteor JavaScript Framework.",
                 'image': 'http://www.brew.com.hk/images/pictures/og-home.png',
                 'image:type': 'image/png',
                 'image:width': 1200,
@@ -44,8 +44,8 @@ SeoCollection.update(
                 href: "http://www.brew.com.hk/contact-us"
             }],
             og: {
-                'title': "Contact Us - Brew",
-                'description': "Brew is a full-service creative digital agency in Hong Kong, specializing in Meteor. Contact us today and turn your ideas into reality!"
+                'url': "http://www.brew.com.hk/contact-us",
+                'title': "Contact Us - Brew"
             }
         }
     },
@@ -70,8 +70,8 @@ SeoCollection.update(
                 href: "http://www.brew.com.hk/process"
             }],
             og: {
+                'url': "http://www.brew.com.hk/process",
                 'title': "The Brewing Process",
-                'description': "The Brew team have successfully delivered many websites and applications. What's our development process? We'd love to share it with you!",
                 'image': [
                     'http://www.brew.com.hk/images/pictures/process-hero-proposal.png',
                     'http://www.brew.com.hk/images/pictures/process-hero-planning.png',
@@ -106,8 +106,8 @@ SeoCollection.update(
                 href: "http://www.brew.com.hk/services"
             }],
             og: {
-                'title': "Services - Brew",
-                'description': "Brew is a full-service creative digital agency in Hong Kong. We offer a wide range of services, including Branding, Design, Development, Marketing and more."
+                'url': "http://www.brew.com.hk/services",
+                'title': "Services - Brew"
             }
         }
     },
@@ -132,8 +132,8 @@ SeoCollection.update(
                 href: "http://www.brew.com.hk/solutions"
             }],
             og: {
-                'title': "Solutions - Brew",
-                'description': "Brew is a full-service creative digital agency in Hong Kong. Need help founding a startup? Launching an app? We offer packages that takes care of everything."
+                'url': "http://www.brew.com.hk/solutions",
+                'title': "Solutions - Brew"
             }
         }
     },
@@ -158,8 +158,8 @@ SeoCollection.update(
                 href: "http://www.brew.com.hk/projects"
             }],
             og: {
-                'title': "Projects - Brew",
-                'description': "Brew is a full-service creative digital agency in Hong Kong. Please check out our past projects! If you like what you see, feel free to give us a call!"
+                'url': "http://www.brew.com.hk/projects",
+                'title': "Projects - Brew"
             }
         }
     },
@@ -184,8 +184,8 @@ SeoCollection.update(
                 href: "http://www.brew.com.hk/projects/skeduo"
             }],
             og: {
+                'url': "http://www.brew.com.hk/projects/skeduo",
                 'title': "Skeduo by Brew",
-                'description': "Skeduo is an upcoming mobile application that encourages regular 1-to-1, face-to-face professional networking. This is our progress so far.",
                 'image': [
                     'http://www.brew.com.hk/images/pictures/projects/skeduo/skeduo-1.png',
                     'http://www.brew.com.hk/images/pictures/projects/skeduo/skeduo-2.png',
@@ -220,8 +220,8 @@ SeoCollection.update(
                 href: "http://www.brew.com.hk/projects/takeoff"
             }],
             og: {
+                'url': "http://www.brew.com.hk/projects/takeoff",
                 'title': "Takeoff by Brew",
-                'description': "Takeoff is a landing page template that encourages visitors to sign up or download your app. Completely open-sourced, it's our gift back to the community.",
                 'image': [
                     'http://www.brew.com.hk/images/pictures/projects/bebello/screenshots/product.png',
                     'http://www.brew.com.hk/images/pictures/projects/bebello/screenshots/order.png',
@@ -256,8 +256,8 @@ SeoCollection.update(
                 href: "http://www.brew.com.hk/projects/bebello"
             }],
             og: {
+                'url': "http://www.brew.com.hk/projects/bebello",
                 'title': "Bebebllo by Brew",
-                'description': "Bebello is an online marketplace for handmade products in Hong Kong. Launched in December 2015, it offers a great platform for local artists and designers.",
                 'image': [
                     'http://www.brew.com.hk/images/pictures/projects/bebello/screenshots/product.png',
                     'http://www.brew.com.hk/images/pictures/projects/bebello/screenshots/order.png',
@@ -292,8 +292,8 @@ SeoCollection.update(
                 href: "http://www.brew.com.hk/projects/techni-photo"
             }],
             og: {
+                'url': "http://www.brew.com.hk/projects/techni-photo",
                 'title': "Techni Photo by Brew",
-                'description': "In 2015, we built an online ordering platform for our partner photography firm - Techni Photo. It's serving hundreds of thousands of users every year.",
                 'image': [
                     'http://www.brew.com.hk/images/pictures/projects/techni/1.png',
                     'http://www.brew.com.hk/images/pictures/projects/techni/2.png',
