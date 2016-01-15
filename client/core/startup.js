@@ -1,4 +1,22 @@
 Meteor.startup(function () {
+    SEO.config({
+        title: 'Brew - Full-Service Digital Agency in Hong Kong',
+        meta: {
+            'description': 'Brew is a full-service creative digital agency in Hong Kong, helping SMEs and startups launch their business since 2015.'
+        },
+        og: {
+        	'site_name': 'Brew',
+            'image': 'http://www.brew.com.hk/images/pictures/og-home.png',
+            'image:type': 'image/png',
+            'image:width': 1200,
+            'image:height': 630
+		},
+		auto: {
+			twitter: true,
+			og: true,
+			set: ['description', 'url']
+		}
+    });
 	// Loads segment analytics
 	var analytics = window.analytics = window.analytics || [];
 	if (!analytics.initialize) {
