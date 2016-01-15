@@ -1,3 +1,5 @@
+sitemaps.config('rootUrl', 'http://www.brew.com.hk/');
+
 sitemaps.add('/sitemap.xml', function() {
   // required: page
   // optional: lastmod, changefreq, priority, xhtmlLinks, images, videos
