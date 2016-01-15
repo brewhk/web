@@ -68,17 +68,27 @@ body {
 }
 
 /* line 19, ../../../tests/themes/default/sass/_global.scss */
+.offscreen {
+  position: absolute;
+  left: -1000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* line 50, ../../../tests/themes/default/sass/_global.scss */
 div {
   box-sizing: border-box;
 }
 
-/* line 23, ../../../tests/themes/default/sass/_global.scss */
+/* line 54, ../../../tests/themes/default/sass/_global.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../tests/themes/default/sass/_global.scss */
+/* line 59, ../../../tests/themes/default/sass/_global.scss */
 p, .project-subheading {
   font-size: 2rem;
   line-height: 3.6rem;
@@ -87,7 +97,7 @@ p, .project-subheading {
   margin-bottom: 0;
 }
 @media screen and (max-width: 420px) {
-  /* line 28, ../../../tests/themes/default/sass/_global.scss */
+  /* line 59, ../../../tests/themes/default/sass/_global.scss */
   p, .project-subheading {
     font-size: 1.6rem;
     line-height: 3rem;
@@ -95,7 +105,7 @@ p, .project-subheading {
   }
 }
 
-/* line 41, ../../../tests/themes/default/sass/_global.scss */
+/* line 72, ../../../tests/themes/default/sass/_global.scss */
 .main-layout__responsive-menu-toggle {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -105,7 +115,7 @@ p, .project-subheading {
   user-select: none;
 }
 
-/* line 54, ../../../tests/themes/default/sass/_global.scss */
+/* line 85, ../../../tests/themes/default/sass/_global.scss */
 a {
   color: #ff6663;
   text-decoration: none;
@@ -113,17 +123,17 @@ a {
   border-bottom-color: #ff6663;
   border-bottom-style: dotted;
 }
-/* line 60, ../../../tests/themes/default/sass/_global.scss */
+/* line 91, ../../../tests/themes/default/sass/_global.scss */
 a:hover {
   border-bottom-style: dashed;
 }
 
-/* line 65, ../../../tests/themes/default/sass/_global.scss */
+/* line 96, ../../../tests/themes/default/sass/_global.scss */
 a, button {
   cursor: pointer;
 }
 
-/* line 70, ../../../tests/themes/default/sass/_global.scss */
+/* line 101, ../../../tests/themes/default/sass/_global.scss */
 em {
   font-style: normal;
   border-bottom-color: #ff6663;
@@ -131,50 +141,50 @@ em {
   border-bottom-width: 1px;
 }
 
-/* line 77, ../../../tests/themes/default/sass/_global.scss */
+/* line 108, ../../../tests/themes/default/sass/_global.scss */
 ::selection {
   background-color: #00999c;
   color: #fcfcfc;
 }
 
-/* line 82, ../../../tests/themes/default/sass/_global.scss */
+/* line 113, ../../../tests/themes/default/sass/_global.scss */
 ::-moz-selection {
   background-color: #00999c;
   color: #fcfcfc;
 }
 
-/* line 87, ../../../tests/themes/default/sass/_global.scss */
+/* line 118, ../../../tests/themes/default/sass/_global.scss */
 .companyName {
   font-weight: 700;
   text-transform: uppercase;
 }
 
-/* line 93, ../../../tests/themes/default/sass/_global.scss */
+/* line 124, ../../../tests/themes/default/sass/_global.scss */
 .companyLogo.footerLogo, .companyLogo.headerLogo {
   height: 32px;
 }
 
-/* line 99, ../../../tests/themes/default/sass/_global.scss */
+/* line 130, ../../../tests/themes/default/sass/_global.scss */
 .content-block {
   padding-top: 98px;
   padding-bottom: 98px;
 }
 @media screen and (max-width: 420px) {
-  /* line 99, ../../../tests/themes/default/sass/_global.scss */
+  /* line 130, ../../../tests/themes/default/sass/_global.scss */
   .content-block {
     padding-top: 36px;
     padding-bottom: 36px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 99, ../../../tests/themes/default/sass/_global.scss */
+  /* line 130, ../../../tests/themes/default/sass/_global.scss */
   .content-block {
     padding-top: 50px;
     padding-bottom: 50px;
   }
 }
 
-/* line 112, ../../../tests/themes/default/sass/_global.scss */
+/* line 143, ../../../tests/themes/default/sass/_global.scss */
 .introduction-text,
 .content-text,
 .project-subheading {
@@ -185,7 +195,7 @@ em {
   margin-right: auto;
 }
 @media screen and (max-width: 420px) {
-  /* line 112, ../../../tests/themes/default/sass/_global.scss */
+  /* line 143, ../../../tests/themes/default/sass/_global.scss */
   .introduction-text,
   .content-text,
   .project-subheading {
@@ -194,35 +204,35 @@ em {
   }
 }
 
-/* line 126, ../../../tests/themes/default/sass/_global.scss */
+/* line 157, ../../../tests/themes/default/sass/_global.scss */
 .introduction-text,
 .content-image {
   text-align: center;
 }
 
-/* line 131, ../../../tests/themes/default/sass/_global.scss */
+/* line 162, ../../../tests/themes/default/sass/_global.scss */
 .content-image {
   max-width: 100%;
 }
 
-/* line 135, ../../../tests/themes/default/sass/_global.scss */
+/* line 166, ../../../tests/themes/default/sass/_global.scss */
 .content-text {
   text-align: left;
 }
 
-/* line 139, ../../../tests/themes/default/sass/_global.scss */
+/* line 170, ../../../tests/themes/default/sass/_global.scss */
 .page-title {
   text-transform: uppercase;
   font-size: 3rem;
   letter-spacing: 4px;
 }
 
-/* line 145, ../../../tests/themes/default/sass/_global.scss */
+/* line 176, ../../../tests/themes/default/sass/_global.scss */
 .read-time {
   text-transform: uppercase;
   font-size: 2rem;
 }
-/* line 148, ../../../tests/themes/default/sass/_global.scss */
+/* line 179, ../../../tests/themes/default/sass/_global.scss */
 .read-time:before {
   content: "";
   display: inline-block;
@@ -233,31 +243,31 @@ em {
   margin-right: 12px;
 }
 @media screen and (max-width: 380px) {
-  /* line 145, ../../../tests/themes/default/sass/_global.scss */
+  /* line 176, ../../../tests/themes/default/sass/_global.scss */
   .read-time {
     font-size: 1.8rem;
   }
-  /* line 159, ../../../tests/themes/default/sass/_global.scss */
+  /* line 190, ../../../tests/themes/default/sass/_global.scss */
   .read-time:before {
     width: 14px;
     height: 14px;
   }
 }
 
-/* line 166, ../../../tests/themes/default/sass/_global.scss */
+/* line 197, ../../../tests/themes/default/sass/_global.scss */
 .app-screens-block {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 @media screen and (max-width: 479px) {
-  /* line 166, ../../../tests/themes/default/sass/_global.scss */
+  /* line 197, ../../../tests/themes/default/sass/_global.scss */
   .app-screens-block {
     display: block;
   }
 }
 
-/* line 175, ../../../tests/themes/default/sass/_global.scss */
+/* line 206, ../../../tests/themes/default/sass/_global.scss */
 .app-screen {
   width: 320px;
   max-width: 100%;
@@ -265,7 +275,7 @@ em {
   margin-bottom: 16px;
 }
 @media screen and (min-width: 480px) {
-  /* line 175, ../../../tests/themes/default/sass/_global.scss */
+  /* line 206, ../../../tests/themes/default/sass/_global.scss */
   .app-screen {
     margin-left: 16px;
     margin-right: 16px;
@@ -273,46 +283,46 @@ em {
 }
 
 @media screen and (min-width: 480px) {
-  /* line 186, ../../../tests/themes/default/sass/_global.scss */
+  /* line 217, ../../../tests/themes/default/sass/_global.scss */
   .iphone-6-app-screen {
     height: 577px;
   }
 }
 
-/* line 192, ../../../tests/themes/default/sass/_global.scss */
+/* line 223, ../../../tests/themes/default/sass/_global.scss */
 .project-subheading {
   text-align: left;
 }
 
-/* line 197, ../../../tests/themes/default/sass/_global.scss */
+/* line 228, ../../../tests/themes/default/sass/_global.scss */
 .page-screenshot {
   width: 100%;
   margin-bottom: 16px;
 }
 
-/* line 202, ../../../tests/themes/default/sass/_global.scss */
+/* line 233, ../../../tests/themes/default/sass/_global.scss */
 .screenshot-slide {
   width: 100%;
 }
 
-/* line 206, ../../../tests/themes/default/sass/_global.scss */
+/* line 237, ../../../tests/themes/default/sass/_global.scss */
 .screen-slide {
   width: 310px;
   max-width: 100%;
 }
 
-/* line 211, ../../../tests/themes/default/sass/_global.scss */
+/* line 242, ../../../tests/themes/default/sass/_global.scss */
 .content-meteor-logo,
 .content-digitalocean-logo {
   width: 600px;
 }
 
-/* line 216, ../../../tests/themes/default/sass/_global.scss */
+/* line 247, ../../../tests/themes/default/sass/_global.scss */
 .content-asiapay-logo {
   width: 268px;
 }
 
-/* line 220, ../../../tests/themes/default/sass/_global.scss */
+/* line 251, ../../../tests/themes/default/sass/_global.scss */
 .logo-link {
   border-bottom: none !important;
 }

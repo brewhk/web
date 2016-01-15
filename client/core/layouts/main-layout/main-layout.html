@@ -1,5 +1,6 @@
 <template name="mainLayout">
 	<div class="main-layout">
+		<a href="#content" class="offscreen">Skip to Content</a>
 		{{> responsiveMenu}}
 		<div class="main-layout__container">
 			<div class="main-layout__responsive-menu-toggle">
@@ -10,7 +11,7 @@
 			<header class="main-layout__header">
 				{{> menu}}
 			</header>
-			<div class="main-layout__content">
+			<div id="content" class="main-layout__content">
 				{{> yield}}
 			</div>
 			<footer class="mainLayout__footer">
