@@ -2,7 +2,7 @@ Meteor.startup(function () {
     SEO.config({
         title: 'Brew - Full-Service Digital Agency in Hong Kong',
         meta: {
-            'description': 'Brew is a full-service creative digital agency in Hong Kong, helping SMEs and startups launch their business since 2015.'
+            'description': 'Brew is a full-service creative digital agency in Hong Kong, specializing in the Meteor JavaScript Framework.'
         },
         og: {
         	'site_name': 'Brew',

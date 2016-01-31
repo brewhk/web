@@ -853,6 +853,12 @@ em {
   max-width: 100%;
 }
 
+/* line 50, ../../../tests/themes/default/sass/pages/home/_main.scss */
+.home__meteor-partner-logo {
+  width: 320px;
+  max-width: 100%;
+}
+
 /* line 1, ../../../tests/themes/default/sass/pages/home/_map.scss */
 #home-map {
   width: 100%;
